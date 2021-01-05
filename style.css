@@ -4,10 +4,12 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 .half-width{
+    height: 400 px;
     width:40%;
     margin: 2% 4%;
     padding: 2px 10px;
     float:left;
+    border:1px solid red;
 }
 h1{
     font-size: 45px;
@@ -28,13 +30,29 @@ button:hover{
 }
 .top-section{
     background-image: url("images/top-banner.png");
-    height:400px;
+    height:700px;
     background-repeat: no-repeat;
 }
 .profile-image2{
     float:left;
      width:70%;
  }
- #mid-secttion{
-     width: 30%;
+ .mid-section{
+     height: 600px;;
+ }
+ .third-section{
+    margin: 10px 10px;
+    height: 800px;
+     background-color:lightgray;
+ }
+ one-third-width{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+    display: inline;
+ }
+ .blog-image{
+     width: 20%;
+     height: auto;
  }
