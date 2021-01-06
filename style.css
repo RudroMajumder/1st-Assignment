@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -100,9 +104,20 @@ button:hover{
     background-size: 7%;
 }
 .last-section{
-    height: 200px;
+    margin-top: -150px;
+    height:150px;
+    background-position: center;
     background-image: url("shapes/Group_33094_1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+#bottom-style1{
+    margin-left: 410px;
+    padding:60px;
+}
+#bottom-style2{
+    margin-left: 940px;
+    margin-top: -90px;
 }
