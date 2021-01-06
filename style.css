@@ -127,8 +127,11 @@ button:hover{
     padding:60px;
 }
 #bottom-style2{
-    margin-left: 940px;
+    margin-left: 920px;
     margin-top: -90px;
+}
+.last-section button{
+    padding:10px 10px;
 }
 .footer{
     padding-top: 15px;
